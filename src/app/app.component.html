@@ -1,0 +1,16 @@
+<div class="container">  
+  <form [formGroup]="Form" (ngSubmit)="this[EventValue]()">  
+      <h3>Clientes</h3>  
+      <div class="row">  
+        <table *ngFor = "let row of data">
+        <tr>
+          <td>
+            {{row}}
+          </td>
+        </tr>
+        </table>
+    </div>  
+ </form>   
+
+  
+</div> 
