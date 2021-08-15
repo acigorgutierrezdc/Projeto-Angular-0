@@ -7155,9 +7155,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Igor\\Desktop\\Projeto-YOunder\\Projeto-YOunder\\API\\YounderAPI\\YounderAPI.csproj",
-      "projectName": "YounderAPI",
-      "projectPath": "C:\\Users\\Igor\\Desktop\\Projeto-YOunder\\Projeto-YOunder\\API\\YounderAPI\\YounderAPI.csproj",
+      "projectUniqueName": "C:\\Users\\Igor\\Desktop\\Projeto-YOunder\\Projeto-YOunder\\API\\YounderAPI\\AlunoAPI.csproj",
+      "projectName": "AlunoAPI",
+      "projectPath": "C:\\Users\\Igor\\Desktop\\Projeto-YOunder\\Projeto-YOunder\\API\\YounderAPI\\AlunoAPI.csproj",
       "packagesPath": "C:\\Users\\Igor\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Igor\\Desktop\\Projeto-YOunder\\Projeto-YOunder\\API\\YounderAPI\\obj\\",
       "projectStyle": "PackageReference",

@@ -6,18 +6,18 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using YounderAPI.Data;
-using YounderAPI.Model;
+using AlunoAPI.Data;
+using AlunoAPI.Model;
 
-namespace YounderAPI.Controllers
+namespace AlunoAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
     public class AlunoController : ControllerBase
     {
-        private readonly YounderAPIContext _context;
+        private readonly AlunoAPIContext _context;
 
-        public AlunoController(YounderAPIContext context)
+        public AlunoController(AlunoAPIContext context)
         {
             _context = context;
         }

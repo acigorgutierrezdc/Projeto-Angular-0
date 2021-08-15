@@ -3,12 +3,12 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using YounderAPI.Data;
+using AlunoAPI.Data;
 
-namespace YounderAPI.Migrations
+namespace AlunoAPI.Migrations
 {
-    [DbContext(typeof(YounderAPIContext))]
-    partial class YounderAPIContextModelSnapshot : ModelSnapshot
+    [DbContext(typeof(AlunoAPIContext))]
+    partial class AlunoAPIContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)
         {
@@ -18,7 +18,7 @@ namespace YounderAPI.Migrations
                 .HasAnnotation("ProductVersion", "5.0.8")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("YounderAPI.Model.Aluno", b =>
+            modelBuilder.Entity("AlunoAPI.Model.Aluno", b =>
                 {
                     b.Property<int>("alunoId")
                         .ValueGeneratedOnAdd()

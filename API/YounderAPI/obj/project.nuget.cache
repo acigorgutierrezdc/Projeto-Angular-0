@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wdqzJxuXaef+SYgtnUYDZlTBao5LO/OrLEqyqKblXtLtlpN8PP2szuyaQhGpTTXrT7Glhe2iGttsTtYGxKSKiQ==",
+  "dgSpecHash": "mSM5hc7coBLxaqko4xcf1ZWBpkUDYsep1PnKhKdiHfmWGnDgdpg9lAPu91GZ+xbw1F/Gxa909BK20ZcTEt7fBA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Igor\\Desktop\\Projeto-YOunder\\Projeto-YOunder\\API\\YounderAPI\\YounderAPI.csproj",
+  "projectFilePath": "C:\\Users\\Igor\\Desktop\\Projeto-YOunder\\Projeto-YOunder\\API\\YounderAPI\\AlunoAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Igor\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Igor\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
