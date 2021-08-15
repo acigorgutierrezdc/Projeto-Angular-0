@@ -15,17 +15,17 @@ export class AppService {
         })  
       }    
       getData(){  
-        return this.http.get(this.rootURL + '/Clientes'); 
+        return this.http.get(this.rootURL + '/Aluno'); 
       }  
       
       // postData(formData){  
-      //   return this.http.post(this.rootURL + '/Clientes',formData);  
+      //   return this.http.post(this.rootURL + '/Aluno',formData);  
       // }  
       
       // putData(id,formData){  
-      //   return this.http.put(this.rootURL + '/Clientes/'+id,formData);  
+      //   return this.http.put(this.rootURL + '/Aluno/'+id,formData);  
       // }  
       // deleteData(id){  
-      //   return this.http.delete(this.rootURL + '/Clientes/'+id);  
+      //   return this.http.delete(this.rootURL + '/Aluno/'+id);  
       // }  
 }

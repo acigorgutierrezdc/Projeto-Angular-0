@@ -14,6 +14,6 @@ namespace YounderAPI.Data
         {
         }
 
-        public DbSet<YounderAPI.Model.Clientes> Clientes { get; set; }
+        public DbSet<YounderAPI.Model.Aluno> Aluno { get; set; }
     }
 }

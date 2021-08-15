@@ -8,7 +8,7 @@ import { FormGroup, FormControl } from '@angular/forms';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Clientes';
+  title = 'Aluno';
 
   constructor(private AppService: AppService) { }  
   data: any;  

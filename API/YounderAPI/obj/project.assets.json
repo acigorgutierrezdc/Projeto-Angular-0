@@ -7155,11 +7155,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Igor\\Desktop\\Projeto-YOunder\\API\\YounderAPI\\YounderAPI.csproj",
+      "projectUniqueName": "C:\\Users\\Igor\\Desktop\\Projeto-YOunder\\Projeto-YOunder\\API\\YounderAPI\\YounderAPI.csproj",
       "projectName": "YounderAPI",
-      "projectPath": "C:\\Users\\Igor\\Desktop\\Projeto-YOunder\\API\\YounderAPI\\YounderAPI.csproj",
+      "projectPath": "C:\\Users\\Igor\\Desktop\\Projeto-YOunder\\Projeto-YOunder\\API\\YounderAPI\\YounderAPI.csproj",
       "packagesPath": "C:\\Users\\Igor\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Igor\\Desktop\\Projeto-YOunder\\API\\YounderAPI\\obj\\",
+      "outputPath": "C:\\Users\\Igor\\Desktop\\Projeto-YOunder\\Projeto-YOunder\\API\\YounderAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -7231,7 +7231,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
       }
     }
   }
