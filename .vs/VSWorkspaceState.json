@@ -2,12 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\API",
-    "\\API\\YounderAPI",
-    "\\API\\YounderAPI\\Controllers",
-    "\\API\\YounderAPI\\Migrations",
-    "\\API\\YounderAPI\\Model",
-    "\\src\\app"
+    "\\API\\Projeto-Angular-0"
   ],
-  "SelectedNode": "\\API",
+  "SelectedNode": "\\API\\Projeto-Angular-0\\AlunoAPI.csproj",
   "PreviewInSolutionExplorer": false
 }
