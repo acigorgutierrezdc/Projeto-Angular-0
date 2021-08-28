@@ -22,41 +22,41 @@ namespace APIApp.Controllers
             _context = context;
         }
 
-    // GET: api/Aluno
+    // GET: api/APIApp
     [AllowAnonymous]
     [HttpGet]
-        public async Task<ActionResult<IEnumerable<Obigeto>>> getAllAlunos()
+        public async Task<ActionResult<IEnumerable<APIAppModel>>> getAllAPIApps()
         {
-            return await _context.Aluno.ToListAsync();
+            return await _context.APIApp.ToListAsync();
         }
 
-    // GET: api/Aluno/5
+    // GET: api/APIApp/5
     [AllowAnonymous]
     [HttpGet("{id}")]
-        public async Task<ActionResult<Obigeto>> getAlunoById(int id)
+        public async Task<ActionResult<APIAppModel>> getAPIAppById(int id)
         {
-            var Aluno = await _context.Aluno.FindAsync(id);
+            var APIApp = await _context.APIApp.FindAsync(id);
 
-            if (Aluno == null)
+            if (APIApp == null)
             {
                 return NotFound();
             }
 
-            return Aluno;
+            return APIApp;
         }
 
-    // PUT: api/Aluno/5
+    // PUT: api/APIApp/5
     // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
     [AllowAnonymous]
     [HttpPut("{id}")]
-        public async Task<IActionResult> PutAluno(int id, Obigeto Aluno)
+        public async Task<IActionResult> PutAPIApp(int id, APIAppModel APIApp)
         {
-            if (id != Aluno.alunoId)
+            if (id != APIApp.Id)
             {
                 return BadRequest();
             }
 
-            _context.Entry(Aluno).State = EntityState.Modified;
+            _context.Entry(APIApp).State = EntityState.Modified;
 
             try
             {
@@ -64,7 +64,7 @@ namespace APIApp.Controllers
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!AlunoExists(id))
+                if (!APIAppExists(id))
                 {
                     return NotFound();
                 }
@@ -77,38 +77,38 @@ namespace APIApp.Controllers
             return NoContent();
         }
 
-    // POST: api/Aluno
+    // POST: api/APIApp
     // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
     [AllowAnonymous]
     [HttpPost]
-        public async Task<ActionResult<Obigeto>> createAluno(Obigeto Aluno)
+        public async Task<ActionResult<APIAppModel>> createAPIApp(APIAppModel APIApp)
         {
-            _context.Aluno.Add(Aluno);
+            _context.APIApp.Add(APIApp);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction("GetAluno", new { id = Aluno.alunoId }, Aluno);
+            return CreatedAtAction("GetAPIApp", new { id = APIApp.Id }, APIApp);
         }
 
-    // DELETE: api/Aluno/5
+    // DELETE: api/APIApp/5
     [AllowAnonymous]
     [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteAluno(int id)
+        public async Task<IActionResult> DeleteAPIApp(int id)
         {
-            var Aluno = await _context.Aluno.FindAsync(id);
-            if (Aluno == null)
+            var APIApp = await _context.APIApp.FindAsync(id);
+            if (APIApp == null)
             {
                 return NotFound();
             }
 
-            _context.Aluno.Remove(Aluno);
+            _context.APIApp.Remove(APIApp);
             await _context.SaveChangesAsync();
 
             return NoContent();
         }
 
-        private bool AlunoExists(int id)
+        private bool APIAppExists(int id)
         {
-            return _context.Aluno.Any(e => e.alunoId == id);
+            return _context.APIApp.Any(e => e.Id == id);
         }
     }
 }

@@ -72,7 +72,7 @@ namespace APIApp
       {
         endpoints.MapControllerRoute(
                   name: "default",
-                  pattern: "{controller=API/Aluno}");
+                  pattern: "{controller=API/APIApp}");
       });
     }
   }

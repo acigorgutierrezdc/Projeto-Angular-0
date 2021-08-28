@@ -2,7 +2,6 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
-using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using APIApp.Data;
 
 namespace APIApp.Migrations
@@ -18,9 +17,9 @@ namespace APIApp.Migrations
                 .HasAnnotation("ProductVersion", "5.0.8")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("APIApp.Model.Aluno", b =>
+            modelBuilder.Entity("APIApp.Model.APIApp", b =>
                 {
-                    b.Property<int>("alunoId")
+                    b.Property<int>("APIAppId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
@@ -33,7 +32,7 @@ namespace APIApp.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Aluno");
+                    b.ToTable("APIApp");
                 });
 #pragma warning restore 612, 618
         }

@@ -14,6 +14,6 @@ namespace APIApp.Data
         {
         }
 
-        public DbSet<APIApp.Model.Obigeto> Aluno { get; set; }
+        public DbSet<APIApp.Model.APIAppModel> APIApp { get; set; }
     }
 }

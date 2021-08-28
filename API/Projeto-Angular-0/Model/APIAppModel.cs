@@ -7,8 +7,8 @@ namespace APIApp.Model
 {
     public class APIAppModel
   {
-        public int Id { get; set; }
+        public int APIAppId { get; set; }
         public string nome { get; set; }
-        public string obs { get; set; }
+        public string email { get; set; }
     }
 }
