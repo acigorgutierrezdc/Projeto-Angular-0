@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "Aluno": {
+    "APIApp": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/Aluno",
+            "outputPath": "dist/APIApp",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -62,18 +62,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "Aluno:build"
+            "browserTarget": "APIApp:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "Aluno:build:production"
+              "browserTarget": "APIApp:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "Aluno:build"
+            "browserTarget": "APIApp:build"
           }
         },
         "test": {
@@ -110,15 +110,15 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "Aluno:serve"
+            "devServerTarget": "APIApp:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "Aluno:serve:production"
+              "devServerTarget": "APIApp:serve:production"
             }
           }
         }
       }
     }},
-  "defaultProject": "Aluno"
+  "defaultProject": "APIApp"
 }

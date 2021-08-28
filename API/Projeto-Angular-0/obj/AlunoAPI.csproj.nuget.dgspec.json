@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Igor\\Desktop\\Projeto-Angular-0\\Projeto-Angular-0\\API\\Projeto-Angular-0\\AlunoAPI.csproj": {}
+    "C:\\Users\\Igor\\Desktop\\Projeto-Angular-0\\Projeto-Angular-0\\API\\Projeto-Angular-0\\APIAppAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Igor\\Desktop\\Projeto-Angular-0\\Projeto-Angular-0\\API\\Projeto-Angular-0\\AlunoAPI.csproj": {
+    "C:\\Users\\Igor\\Desktop\\Projeto-Angular-0\\Projeto-Angular-0\\API\\Projeto-Angular-0\\APIAppAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Igor\\Desktop\\Projeto-Angular-0\\Projeto-Angular-0\\API\\Projeto-Angular-0\\AlunoAPI.csproj",
-        "projectName": "AlunoAPI",
-        "projectPath": "C:\\Users\\Igor\\Desktop\\Projeto-Angular-0\\Projeto-Angular-0\\API\\Projeto-Angular-0\\AlunoAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Igor\\Desktop\\Projeto-Angular-0\\Projeto-Angular-0\\API\\Projeto-Angular-0\\APIAppAPI.csproj",
+        "projectName": "APIAppAPI",
+        "projectPath": "C:\\Users\\Igor\\Desktop\\Projeto-Angular-0\\Projeto-Angular-0\\API\\Projeto-Angular-0\\APIAppAPI.csproj",
         "packagesPath": "C:\\Users\\Igor\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Igor\\Desktop\\Projeto-Angular-0\\Projeto-Angular-0\\API\\Projeto-Angular-0\\obj\\",
         "projectStyle": "PackageReference",

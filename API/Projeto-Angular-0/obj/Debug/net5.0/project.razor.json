@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\Igor\\Desktop\\Projeto-YOunder\\Projeto-YOunder\\API\\YounderAPI\\YounderAPI.csproj",
+  "FilePath": "c:\\Users\\Igor\\Desktop\\Projeto-Angular-0\\Projeto-Angular-0\\API\\Projeto-Angular-0\\APIApp.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "5.0",
@@ -15616,7 +15616,7 @@
     ],
     "CSharpLanguageVersion": 900
   },
-  "RootNamespace": "YounderAPI",
+  "RootNamespace": "APIApp",
   "Documents": [],
   "SerializationFormat": "0.2"
 }

@@ -8,7 +8,7 @@ import { FormGroup, FormControl } from '@angular/forms';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Aluno';
+  title = 'APIApp';
 
   constructor(private AppService: AppService) { }  
   data: any;  
@@ -25,6 +25,7 @@ export class AppComponent {
     //   sobrenome: new FormControl("sobrenome"),        
     // })    
   }  
+  //sar aqui no trampo
   getdata() {  
     this.AppService.getData().subscribe((data: any[]) => {  
       this.data = data;   
