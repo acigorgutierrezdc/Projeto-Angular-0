@@ -7,5 +7,5 @@ run command:
 1. C:\Windows\system32>dotnet tool install --global dotnet-ef
 ----------------------------------------
 No Nuget Console Manager
-3. PM> Update-Database
-4. PM> dotnet ef database update -v
+2. PM> Update-Database
+3. PM> dotnet ef database update -v
