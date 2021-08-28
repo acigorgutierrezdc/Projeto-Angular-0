@@ -9,3 +9,4 @@ run command:
 No Nuget Console Manager
 2. PM> Update-Database
 3. PM> dotnet ef database update -v
+4. ----------------------------------------
