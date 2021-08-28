@@ -51,7 +51,7 @@ namespace APIApp.Controllers
     [HttpPut("{id}")]
         public async Task<IActionResult> PutAPIApp(int id, APIAppModel APIApp)
         {
-            if (id != APIApp.Id)
+            if (id != APIApp.APIAppId)
             {
                 return BadRequest();
             }
@@ -86,7 +86,7 @@ namespace APIApp.Controllers
             _context.APIApp.Add(APIApp);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction("GetAPIApp", new { id = APIApp.Id }, APIApp);
+            return CreatedAtAction("GetAPIApp", new { id = APIApp.APIAppId }, APIApp);
         }
 
     // DELETE: api/APIApp/5
@@ -108,7 +108,7 @@ namespace APIApp.Controllers
 
         private bool APIAppExists(int id)
         {
-            return _context.APIApp.Any(e => e.Id == id);
+            return _context.APIApp.Any(e => e.APIAppId == id);
         }
     }
 }

@@ -1,3 +1,4 @@
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -5,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace APIApp.Model
 {
-    public class APIAppModel
+  [Keyless]
+  public class APIAppModel
   {
         public int APIAppId { get; set; }
         public string nome { get; set; }
