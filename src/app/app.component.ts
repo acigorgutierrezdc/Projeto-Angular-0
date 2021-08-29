@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import {AppService} from './app.service';  
+import {AppService} from './app.service';
 import { FormGroup, FormControl } from '@angular/forms';
 
 @Component({
@@ -10,68 +10,68 @@ import { FormGroup, FormControl } from '@angular/forms';
 export class AppComponent {
   title = 'APIApp';
 
-  constructor(private AppService: AppService) { }  
-  data: any;  
-  Form: FormGroup;  
-  submitted = false;   
-  EventValue: any = "Save";  
-  
-  ngOnInit(): void {  
-    this.getdata();  
-  
-    // this.Form = new FormGroup({  
-    //   id: new FormControl("id"),  
-    //   nome: new FormControl("nome"), 
-    //   sobrenome: new FormControl("sobrenome"),        
-    // })    
-  }  
+  constructor(private AppService: AppService) { }
+  data: any;
+  Form: FormGroup;
+  submitted = false;
+  EventValue: any = "Save";
+
+  ngOnInit(): void {
+    console.log(this.getdata());
+
+    this.Form = new FormGroup({
+      id: new FormControl("id"),
+      nome: new FormControl("nome"),
+      email: new FormControl("email"),
+    })
+  }
   //sar aqui no trampo
-  getdata() {  
-    this.AppService.getData().subscribe((data: any[]) => {  
-      this.data = data;   
-    })  
-  }  
-  // deleteData(id) {  
-  //   this.AppService.deleteData(id).subscribe((data: any[]) => {  
-  //     this.data = data;  
-  //     this.getdata();  
-  //   })  
-  // }  
-  // Save() {   
-  //   this.submitted = true;  
-    
-  //    if (this.Form.invalid) {  
-  //           return;  
-  //    }  
-  //   this.AppService.postData(this.Form.value).subscribe((data: any[]) => {  
-  //     this.data = data;  
-  //     this.resetFrom();  
-  
-  //   })  
-  // }  
-  // Update() {   
-  //   this.submitted = true;  
-    
-  //   if (this.Form.invalid) {  
-  //    return;  
-  //   }        
-  //   this.AppService.putData(this.Form.value.PagamentoId,this.Form.value).subscribe((data: any[]) => {  
-  //     this.data = data;  
-  //     this.resetFrom();  
-  //   })  
-  // }  
-  
-  // EditData(Data) {  
-  //   this.Form.controls["id"].setValue(Data.id);  
-  //   this.Form.controls["nome"].setValue(Data.nome);      
-  //   this.EventValue = "Atualiza";  
-  // }  
-  
-  // resetFrom()  
-  // {     
-  //   this.getdata();  
-  //   this.Form.reset();  
-  //   this.EventValue = "Save";  
-  //   this.submitted = false;   
-  // } 
+  getdata() {
+    this.AppService.getData().subscribe((data: any[]) => {
+      this.data = data;
+    })
+  }
+  // deleteData(id) {
+  //   this.AppService.deleteData(id).subscribe((data: any[]) => {
+  //     this.data = data;
+  //     this.getdata();
+  //   })
+  // }
+  // Save() {
+  //   this.submitted = true;
+
+  //    if (this.Form.invalid) {
+  //           return;
+  //    }
+  //   this.AppService.postData(this.Form.value).subscribe((data: any[]) => {
+  //     this.data = data;
+  //     this.resetFrom();
+
+  //   })
+  // }
+  // Update() {
+  //   this.submitted = true;
+
+  //   if (this.Form.invalid) {
+  //    return;
+  //   }
+  //   this.AppService.putData(this.Form.value.PagamentoId,this.Form.value).subscribe((data: any[]) => {
+  //     this.data = data;
+  //     this.resetFrom();
+  //   })
+  // }
+
+  // EditData(Data) {
+  //   this.Form.controls["id"].setValue(Data.id);
+  //   this.Form.controls["nome"].setValue(Data.nome);
+  //   this.EventValue = "Atualiza";
+  // }
+
+  resetFrom()
+  {
+    this.getdata();
+    this.Form.reset();
+    this.EventValue = "Save";
+    this.submitted = false;
+  }
 }
