@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Igor\\Desktop\\Projeto-YOunder\\Projeto-YOunder\\API\\YounderAPI\\YounderAPI.csproj": {}
+    "C:\\Users\\Igor\\Desktop\\Projeto-YOunder\\Projeto-YOunder\\API\\ApiApp\\ApiApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Igor\\Desktop\\Projeto-YOunder\\Projeto-YOunder\\API\\YounderAPI\\YounderAPI.csproj": {
+    "C:\\Users\\Igor\\Desktop\\Projeto-YOunder\\Projeto-YOunder\\API\\ApiApp\\ApiApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Igor\\Desktop\\Projeto-YOunder\\Projeto-YOunder\\API\\YounderAPI\\YounderAPI.csproj",
-        "projectName": "YounderAPI",
-        "projectPath": "C:\\Users\\Igor\\Desktop\\Projeto-YOunder\\Projeto-YOunder\\API\\YounderAPI\\YounderAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Igor\\Desktop\\Projeto-YOunder\\Projeto-YOunder\\API\\ApiApp\\ApiApp.csproj",
+        "projectName": "ApiApp",
+        "projectPath": "C:\\Users\\Igor\\Desktop\\Projeto-YOunder\\Projeto-YOunder\\API\\ApiApp\\ApiApp.csproj",
         "packagesPath": "C:\\Users\\Igor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Igor\\Desktop\\Projeto-YOunder\\Projeto-YOunder\\API\\YounderAPI\\obj\\",
+        "outputPath": "C:\\Users\\Igor\\Desktop\\Projeto-YOunder\\Projeto-YOunder\\API\\ApiApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

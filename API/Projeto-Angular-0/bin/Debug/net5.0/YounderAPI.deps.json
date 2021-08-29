@@ -31,7 +31,7 @@
   },
   "targets": {
     ".NETCoreApp,Version=v5.0": {
-      "YounderAPI/1.0.0": {
+      "ApiApp/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Design": "5.0.8",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.8",
@@ -320,10 +320,10 @@
           "WindowsBase": "4.0.0.0"
         },
         "runtime": {
-          "YounderAPI.dll": {}
+          "ApiApp.dll": {}
         },
         "compile": {
-          "YounderAPI.dll": {}
+          "ApiApp.dll": {}
         }
       },
       "Humanizer.Core/2.8.26": {
@@ -3490,7 +3490,7 @@
     }
   },
   "libraries": {
-    "YounderAPI/1.0.0": {
+    "ApiApp/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
